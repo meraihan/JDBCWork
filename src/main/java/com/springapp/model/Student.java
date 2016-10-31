@@ -9,6 +9,11 @@ public class Student {
     private String roll;
     private String address;
 
+
+    public Student(){
+
+    }
+
     public Student(int id, String name, String roll, String address) {
         this.id = id;
         this.name = name;
